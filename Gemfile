@@ -13,7 +13,9 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'rspec-rails'
+  gem 'ZenTest'
   gem 'simplecov'
+  gem 'factory_girl_rails'
 end
 
 group :test do
@@ -28,7 +30,7 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'therubyracer' #, "~> 0.9.9"             
+  gem 'therubyracer' #, "~> 0.9.9"
   gem 'sass-rails', "  ~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"
   gem 'uglifier'
@@ -44,5 +46,3 @@ gem 'jquery-rails'
 
 # To use debugger
 gem 'haml'
-
-
